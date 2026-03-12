@@ -1,0 +1,40 @@
+.home {
+  background-color: #eaeded;
+  min-height: 100vh;
+}
+
+/* Banner Section */
+.banner-container {
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+/* Content container */
+.home-content {
+  max-width: 1200px;
+  margin: -150px auto 0 auto; /* pull up like Amazon */
+  padding: 20px;
+}
+
+/* Search */
+.search-box {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+/* Product grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}

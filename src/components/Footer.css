@@ -1,0 +1,51 @@
+.footer {
+  margin-top: 40px;
+  color: white;
+  font-size: 14px;
+}
+
+/* Back to top */
+.footer-top {
+  background-color: #37475a;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.footer-top:hover {
+  background-color: #485769;
+}
+
+/* Middle section */
+.footer-middle {
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.footer-middle div {
+  margin: 10px 20px;
+}
+
+.footer-middle h4 {
+  margin-bottom: 15px;
+}
+
+.footer-middle p {
+  margin: 6px 0;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.footer-middle p:hover {
+  text-decoration: underline;
+}
+
+/* Bottom */
+.footer-bottom {
+  background-color: #131a22;
+  text-align: center;
+  padding: 15px;
+}
